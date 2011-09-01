@@ -48,6 +48,7 @@ status() {
     else
             echo "Resmon is not running."
     fi
+    exit $?
 }
 restart() {
         stop
